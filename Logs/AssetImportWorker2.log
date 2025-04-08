@@ -1,0 +1,308 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'fr' Physical Memory: 32563 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Lctay/Documents/GitHub/QUACKtory
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56761
+Successfully changed project path to: C:/Users/Lctay/Documents/GitHub/QUACKtory
+C:/Users/Lctay/Documents/GitHub/QUACKtory
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25512] Host "[IP] 192.168.1.157 [Port] 0 [Flags] 2 [Guid] 521283436 [EditorId] 521283436 [Version] 1048832 [Id] WindowsEditor(7,M0CH1_OSR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25512] Host "[IP] 192.168.1.157 [Port] 0 [Flags] 2 [Guid] 521283436 [EditorId] 521283436 [Version] 1048832 [Id] WindowsEditor(7,M0CH1_OSR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 82.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lctay/Documents/GitHub/QUACKtory/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
+    VRAM:     8042 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010016 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 66.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.601 seconds
+Domain Reload Profiling:
+	ReloadAssembly (601ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (430ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (93ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008863 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lctay\Documents\GitHub\QUACKtory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lctay\Documents\GitHub\QUACKtory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1053ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (746ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (56.1 KB). Loaded Objects now: 3826.
+Memory consumption went from 115.7 MB to 115.6 MB.
+Total: 2.404100 ms (FindLiveObjects: 0.222000 ms CreateObjectMapping: 0.073200 ms MarkObjects: 2.058300 ms  DeleteObjects: 0.049900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 119174.981618 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS (Mobile)/RubberDuck_Black_MOBILE.prefab
+  artifactKey: Guid(efd1bfaf561eb024eb04cca4386b28b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS (Mobile)/RubberDuck_Black_MOBILE.prefab using Guid(efd1bfaf561eb024eb04cca4386b28b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0e9eba7ea497226db29a9d9a7f91c3') in 0.216334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS (Mobile)/RubberDuck_GreenNeon_MOBILE.prefab
+  artifactKey: Guid(da7d22f70c1f8c04187eacb467315d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS (Mobile)/RubberDuck_GreenNeon_MOBILE.prefab using Guid(da7d22f70c1f8c04187eacb467315d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9c46ea703f6f87ca4a0139a1faaaa2') in 0.019263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.035651 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Black.fbx
+  artifactKey: Guid(bba15a401835a274586eb834aaa72480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Black.fbx using Guid(bba15a401835a274586eb834aaa72480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1648f283534497bb704eb36c75b246') in 0.167164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Purple.fbx
+  artifactKey: Guid(05230f4f275270a4b9150087d3d07d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Purple.fbx using Guid(05230f4f275270a4b9150087d3d07d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6867fb3bdecff8a0f1e849b85aa8fdfb') in 0.027924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Red.fbx
+  artifactKey: Guid(e9b20f339e41d42409993f01aec5ac61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Red.fbx using Guid(e9b20f339e41d42409993f01aec5ac61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9254bc35ab3c24cf6d0ebd269d3f665') in 0.023407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_RedEye.fbx
+  artifactKey: Guid(6f8500d9b2e1cd340be53bee0f9b8962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_RedEye.fbx using Guid(6f8500d9b2e1cd340be53bee0f9b8962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9b59b184b3efbbe856d372258fd258') in 0.024056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_GreenNeon.fbx
+  artifactKey: Guid(b61e71f8bc623f243a4827373631ed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_GreenNeon.fbx using Guid(b61e71f8bc623f243a4827373631ed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c956d253be9fcbc05b67c1a55ed1fb5b') in 0.017656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.194070 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/Materials/No Name.mat
+  artifactKey: Guid(beea79138d776c744af51a5d9768d3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/Materials/No Name.mat using Guid(beea79138d776c744af51a5d9768d3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9639825c3881c31e640ba4c6526d155') in 0.181677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.638640 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack
+  artifactKey: Guid(08850688d3d285d44ad4eee50558aa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack using Guid(08850688d3d285d44ad4eee50558aa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d442c55858263476edc4bd4a1644766') in 0.010478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.738835 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS
+  artifactKey: Guid(3f26f479edffb5047b13bb07df460c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS using Guid(3f26f479edffb5047b13bb07df460c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc30cbdbabb721bb7d48ef7055d3722') in 0.011621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.232505 seconds.
+  path: Assets/Snowforge_Necklace/Necklace
+  artifactKey: Guid(bbf4f3021e1a94248b63e8ae447b21ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowforge_Necklace/Necklace using Guid(bbf4f3021e1a94248b63e8ae447b21ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b61098d15f1f5c822d2af583a62ca8') in 0.010863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.956106 seconds.
+  path: Assets/Snowforge_Necklace/Necklace/Models
+  artifactKey: Guid(c81043d671c8c1a4e84d131f516f1cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowforge_Necklace/Necklace/Models using Guid(c81043d671c8c1a4e84d131f516f1cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b8f9d3dc9300e61bdaa972a74bddb8') in 0.010226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055391 seconds.
+  path: Assets/Snowforge_Necklace/Necklace/Models/Necklace.fbx
+  artifactKey: Guid(3651813b8e7f9fb44983f5ee131eb8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowforge_Necklace/Necklace/Models/Necklace.fbx using Guid(3651813b8e7f9fb44983f5ee131eb8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb52f6d86eada7988e6d404f6f1a612') in 0.188679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.865061 seconds.
+  path: Assets/Snowforge_Necklace/Necklace/Prefabs
+  artifactKey: Guid(69741ed905da797468591877bd03b73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowforge_Necklace/Necklace/Prefabs using Guid(69741ed905da797468591877bd03b73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae8de6976776b00e4bd0ca01ec813cd') in 0.010784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060056 seconds.
+  path: Assets/Snowforge_Necklace/Necklace/Prefabs/Necklace.prefab
+  artifactKey: Guid(1e2193ab3a7eb184499ab33466e8f6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowforge_Necklace/Necklace/Prefabs/Necklace.prefab using Guid(1e2193ab3a7eb184499ab33466e8f6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbfc249851d7928d4eca0310bd5bd44') in 0.072771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.558726 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_Black.prefab
+  artifactKey: Guid(26f8b9578f5720d4bbcf8c9fa6c64c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_Black.prefab using Guid(26f8b9578f5720d4bbcf8c9fa6c64c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2676c5e2000bd6b46a04c748cef1bc75') in 0.029382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002594 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_GreenNeon.prefab
+  artifactKey: Guid(b1d5779163eeaef4dad5b96bca2d6199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_GreenNeon.prefab using Guid(b1d5779163eeaef4dad5b96bca2d6199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815cc8b1a8544c1be0537354f229b5f8') in 0.024191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_GreenDark.prefab
+  artifactKey: Guid(ac1364e42671c42438a9191146eddfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_GreenDark.prefab using Guid(ac1364e42671c42438a9191146eddfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4c6a492f28da40bcfbe4f1810ae499') in 0.020026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_White.prefab
+  artifactKey: Guid(d97d87f9f66e8084ab86c72588bf6d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_White.prefab using Guid(d97d87f9f66e8084ab86c72588bf6d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e49f8490a17e6aa4a7ea517e3c27257') in 0.008815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_Pond.prefab
+  artifactKey: Guid(9231c8940c2a1234c82caa472d4d08e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_Pond.prefab using Guid(9231c8940c2a1234c82caa472d4d08e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383075f7693737b1768411278f27e43f') in 0.008642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_RedEye.prefab
+  artifactKey: Guid(b14d7bef84ea0fb439c89e9a1cf273e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_RedEye.prefab using Guid(b14d7bef84ea0fb439c89e9a1cf273e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58142d3c0fa7b3fa8b38bebb7a0a50b2') in 0.008679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_Red.prefab
+  artifactKey: Guid(436d19b1cddfdff4b99270daeaec55d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Rubber Duck PREFABS/RubberDuck_Red.prefab using Guid(436d19b1cddfdff4b99270daeaec55d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23d122a0cb5cbdb4cde154e4ee7365b') in 0.008746 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
