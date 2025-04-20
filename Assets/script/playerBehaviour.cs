@@ -1,15 +1,20 @@
-using System;
 using UnityEngine;
 
 public class playerBehaviour : MonoBehaviour
 {
-    private float m_speed = 4f;
+    public float m_speed = 4f;
     private float m_smoothingTime = 0.2f;
     private float m_rotationSpeed = 50f;
     private Vector3 m_currentInput;
     public bool _action;
 
-    private Rigidbody m_rb;
+    private Transform m_target;
+    private bool m_canPickUp = true;
+    public Transform m_duckTarget;
+
+    public float distanceTarget = 1.5f;
+
+    public Rigidbody m_rb;
     private Vector3 m_smoothVelocity = Vector3.zero;
 
     // Start is called before the first frame update
@@ -21,6 +26,8 @@ public class playerBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        _action = Input.GetKeyDown(KeyCode.Space);
+
         // movement
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
@@ -32,28 +39,71 @@ public class playerBehaviour : MonoBehaviour
         //
 
 
-        _action = Input.GetKeyDown(KeyCode.Space);
-        if (_action)
+        // ACTION
+        if (m_canPickUp)
         {
-            Debug.Log("action");
+            m_target = Maths.GetClosestObject(this.transform.position, "Duck");
+        }
+        else
+        {
+            m_target = Maths.GetClosestObject(this.transform.position, "Dock");
+        }
+        Debug.DrawLine(this.transform.position, m_target.position);
+
+        if (Vector3.Distance(this.transform.position, m_target.position) < distanceTarget)
+        {
+            if (_action)
+            {
+                if (m_canPickUp)
+                {
+                    PickUp(m_target);
+
+                    Debug.Log("Pick up Duck");
+                }
+                else if (!m_canPickUp)
+                {
+                    PutDown(m_target);
+
+                    Debug.Log("Put down Duck");
+                }
+            }
         }
     }
 
+
     private void Rotate()
     {
-        if (this.m_currentInput == Vector3.zero)
+        //if (this.m_currentInput == Vector3.zero)
+        //{
+        //    this.m_rb.constraints = RigidbodyConstraints.FreezeRotation;
+        //    this.m_rb.constraints = RigidbodyConstraints.FreezePositionY;
+        //    return;
+        //}
+        //this.m_rb.constraints = RigidbodyConstraints.None;
+        //this.m_rb.constraints = RigidbodyConstraints.FreezeRotationZ;
+        //this.m_rb.constraints = RigidbodyConstraints.FreezeRotationX;
+        if (m_currentInput != Vector3.zero)
         {
-            this.m_rb.constraints = RigidbodyConstraints.FreezeRotation;
-            this.m_rb.constraints = RigidbodyConstraints.FreezePositionY;
-            return;
+            Quaternion targetRotation = Quaternion.LookRotation(this.m_currentInput.normalized, Vector3.up);
+            float step = m_rotationSpeed * Time.fixedDeltaTime;
+            Quaternion rotation = Quaternion.RotateTowards(this.transform.rotation, targetRotation, step);
+            this.transform.rotation = rotation;
         }
-        this.m_rb.constraints = RigidbodyConstraints.None;
-        this.m_rb.constraints = RigidbodyConstraints.FreezeRotationZ;
-        this.m_rb.constraints = RigidbodyConstraints.FreezeRotationX;
+    }
+    private void PickUp(Transform PickedUpDuck)
+    {
+        PickedUpDuck.parent = m_duckTarget;
+        PickedUpDuck.localPosition = Vector3.zero;
+        PickedUpDuck.localRotation = Quaternion.Euler(new Vector3(-90, 0, 90));
+        m_canPickUp = false;
+    }
 
-        Quaternion targetRotation = Quaternion.LookRotation(this.m_currentInput.normalized, Vector3.up);
-        float step = m_rotationSpeed * Time.fixedDeltaTime;
-        Quaternion rotation = Quaternion.RotateTowards(this.transform.rotation, targetRotation, step);
-        this.transform.rotation = rotation;
+    private void PutDown(Transform TargetedDock)
+    {
+        Transform PickedUpDuck = m_duckTarget.GetChild(0);
+        PickedUpDuck.parent = TargetedDock.GetChild(0);
+        PickedUpDuck.localPosition = Vector3.zero;
+        PickedUpDuck.localRotation = Quaternion.Euler(new Vector3(-90, 0, 90));
+        m_canPickUp = true;
     }
 }

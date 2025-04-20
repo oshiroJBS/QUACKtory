@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\assets\\script\\duck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\duck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|c:\\users\\lctay\\documents\\github\\quacktory\\assets\\jammo-character\\scripts\\movementinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\jammo-character\\scripts\\movementinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|c:\\users\\lctay\\documents\\github\\quacktory\\assets\\jammo-character\\scripts\\characterskincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\jammo-character\\scripts\\characterskincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\assets\\script\\playerbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|c:\\users\\lctay\\documents\\github\\quacktory\\assets\\script\\maths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|c:\\users\\lctay\\documents\\github\\quacktory\\assets\\script\\duck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\duck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\assets\\script\\maths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\maths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,11 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "MovementInput.cs",
+              "DocumentMoniker": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\Jammo-Character\\Scripts\\MovementInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Jammo-Character\\Scripts\\MovementInput.cs",
+              "ToolTip": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\Jammo-Character\\Scripts\\MovementInput.cs",
+              "RelativeToolTip": "Assets\\Jammo-Character\\Scripts\\MovementInput.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAwwFsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T15:10:18.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CharacterSkinController.cs",
+              "DocumentMoniker": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\Jammo-Character\\Scripts\\CharacterSkinController.cs",
+              "RelativeDocumentMoniker": "Assets\\Jammo-Character\\Scripts\\CharacterSkinController.cs",
+              "ToolTip": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\Jammo-Character\\Scripts\\CharacterSkinController.cs",
+              "RelativeToolTip": "Assets\\Jammo-Character\\Scripts\\CharacterSkinController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T15:09:59.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Maths.cs",
               "DocumentMoniker": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\Maths.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Maths.cs",
@@ -34,25 +68,24 @@
               "RelativeToolTip": "Assets\\script\\Maths.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAswFoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T17:52:02.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T17:52:02.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "duck.cs",
               "DocumentMoniker": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\duck.cs",
               "RelativeDocumentMoniker": "Assets\\script\\duck.cs",
               "ToolTip": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\duck.cs",
               "RelativeToolTip": "Assets\\script\\duck.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAABlAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T17:42:33.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "playerBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\playerBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\script\\playerBehaviour.cs",
