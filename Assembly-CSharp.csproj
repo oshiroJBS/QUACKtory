@@ -56,12 +56,16 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\script\Generate.cs" />
+    <Compile Include="Assets\script\BasicDock.cs" />
     <Compile Include="Assets\Jammo-Character\Scripts\CharacterSkinController.cs" />
     <Compile Include="Assets\script\duck.cs" />
     <Compile Include="Assets\script\playerBehaviour.cs" />
+    <Compile Include="Assets\script\Rotate.cs" />
     <Compile Include="Assets\Jammo-Character\Scripts\MovementInput.cs" />
     <Compile Include="Assets\Snowforge_Necklace\!Scene\Rotator.cs" />
     <Compile Include="Assets\script\Maths.cs" />
+    <Compile Include="Assets\script\dockScript\StaticDock.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Snowconesolid Assets\Super Rubber Duck Pack\Snowconesolid Assets ReadMe.txt" />

@@ -363,9 +363,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Jammo-Character/Scripts/CharacterSkinController.cs"
 "Assets/Jammo-Character/Scripts/MovementInput.cs"
+"Assets/script/BasicDock.cs"
+"Assets/script/dockScript/StaticDock.cs"
 "Assets/script/duck.cs"
+"Assets/script/Generate.cs"
 "Assets/script/Maths.cs"
 "Assets/script/playerBehaviour.cs"
+"Assets/script/Rotate.cs"
 "Assets/Snowforge_Necklace/!Scene/Rotator.cs"
 -langversion:9.0
 
