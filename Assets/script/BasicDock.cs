@@ -10,7 +10,7 @@ public class BasicDock : MonoBehaviour
     private int m_wayPointsIndex = 0;
 
     private void Awake()
-    {        
+    {
         _isEmpty = true;
     }
     virtual public void Start()
@@ -44,7 +44,6 @@ public class BasicDock : MonoBehaviour
     {
         Move();
     }
-
     private void Move()
     {
         if (Vector3.Distance(this.transform.position, _wayPoints[m_wayPointsIndex].position) <= 0.2f)
@@ -61,4 +60,6 @@ public class BasicDock : MonoBehaviour
             this.transform.position = Vector3.MoveTowards(this.transform.position, _wayPoints[m_wayPointsIndex].position, m_speed * Time.deltaTime);
         }
     }
+
+    virtual public void GetActivated() { }
 }

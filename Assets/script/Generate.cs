@@ -32,7 +32,6 @@ public class Generate : MonoBehaviour
                 duckBuffer.localPosition = Vector3.zero;
                 buffer._isEmpty = false;
             }
-            Debug.Log(rng);
         }
     }
 }

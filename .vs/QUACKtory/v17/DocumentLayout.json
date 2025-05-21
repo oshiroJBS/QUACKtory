@@ -3,40 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\assets\\script\\playerbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|c:\\users\\lctay\\documents\\github\\quacktory\\assets\\script\\dockscript\\staticdock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\dockscript\\staticdock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|c:\\users\\lctay\\documents\\github\\quacktory\\assets\\script\\basicdock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\basicdock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\assets\\script\\generate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\generate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|c:\\users\\lctay\\documents\\github\\quacktory\\assets\\script\\rotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\assets\\jammo-character\\scripts\\characterskincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\jammo-character\\scripts\\characterskincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|c:\\users\\lctay\\documents\\github\\quacktory\\assets\\script\\dockscript\\minigamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\dockscript\\minigamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\assets\\script\\maths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\maths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\assets\\script\\playerbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\assets\\script\\generate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\generate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\assets\\jammo-character\\scripts\\movementinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\jammo-character\\scripts\\movementinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\assets\\script\\rotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\assets\\script\\dockscript\\staticdock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\dockscript\\staticdock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\assets\\script\\basicdock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\basicdock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\assets\\script\\ui\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ui\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\assets\\script\\duck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\duck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\assets\\jammo-character\\scripts\\characterskincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12087ED-5A73-6342-604D-9BA77CC8414D}|Assembly-CSharp.csproj|solutionrelative:assets\\jammo-character\\scripts\\characterskincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +54,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "arrow.cs",
+              "DocumentMoniker": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\UI\\arrow.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\UI\\arrow.cs",
+              "ToolTip": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\UI\\arrow.cs",
+              "RelativeToolTip": "Assets\\script\\UI\\arrow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T14:26:21.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "minigameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\dockScript\\minigameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\dockScript\\minigameManager.cs",
+              "ToolTip": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\dockScript\\minigameManager.cs",
+              "RelativeToolTip": "Assets\\script\\dockScript\\minigameManager.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T19:29:21.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Rotate.cs",
               "DocumentMoniker": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\Rotate.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Rotate.cs",
@@ -58,34 +91,31 @@
               "RelativeToolTip": "Assets\\script\\Rotate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T14:27:21.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T14:27:21.281Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "StaticDock.cs",
               "DocumentMoniker": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\dockScript\\StaticDock.cs",
               "RelativeDocumentMoniker": "Assets\\script\\dockScript\\StaticDock.cs",
               "ToolTip": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\dockScript\\StaticDock.cs",
               "RelativeToolTip": "Assets\\script\\dockScript\\StaticDock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T14:17:38.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T14:17:38.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "BasicDock.cs",
               "DocumentMoniker": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\BasicDock.cs",
               "RelativeDocumentMoniker": "Assets\\script\\BasicDock.cs",
               "ToolTip": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\BasicDock.cs",
               "RelativeToolTip": "Assets\\script\\BasicDock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowD8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T16:54:30.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T16:54:30.517Z"
             },
             {
               "$type": "Document",
@@ -95,27 +125,26 @@
               "RelativeDocumentMoniker": "Assets\\script\\Generate.cs",
               "ToolTip": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\Generate.cs",
               "RelativeToolTip": "Assets\\script\\Generate.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAUwCAAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T14:01:57.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "MovementInput.cs",
               "DocumentMoniker": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\Jammo-Character\\Scripts\\MovementInput.cs",
               "RelativeDocumentMoniker": "Assets\\Jammo-Character\\Scripts\\MovementInput.cs",
               "ToolTip": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\Jammo-Character\\Scripts\\MovementInput.cs",
               "RelativeToolTip": "Assets\\Jammo-Character\\Scripts\\MovementInput.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAUwA8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwA4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T15:10:18.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T15:10:18.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "CharacterSkinController.cs",
               "DocumentMoniker": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\Jammo-Character\\Scripts\\CharacterSkinController.cs",
               "RelativeDocumentMoniker": "Assets\\Jammo-Character\\Scripts\\CharacterSkinController.cs",
@@ -123,43 +152,42 @@
               "RelativeToolTip": "Assets\\Jammo-Character\\Scripts\\CharacterSkinController.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T15:09:59.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T15:09:59.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Maths.cs",
               "DocumentMoniker": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\Maths.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Maths.cs",
               "ToolTip": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\Maths.cs",
               "RelativeToolTip": "Assets\\script\\Maths.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAuwE0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAwJAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T17:52:02.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "duck.cs",
               "DocumentMoniker": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\duck.cs",
               "RelativeDocumentMoniker": "Assets\\script\\duck.cs",
               "ToolTip": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\duck.cs",
               "RelativeToolTip": "Assets\\script\\duck.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T17:42:33.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "playerBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\playerBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\script\\playerBehaviour.cs",
               "ToolTip": "C:\\Users\\Lctay\\Documents\\GitHub\\QUACKtory\\Assets\\script\\playerBehaviour.cs",
               "RelativeToolTip": "Assets\\script\\playerBehaviour.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAqwGsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowHQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T16:41:26.115Z",
               "EditorCaption": ""

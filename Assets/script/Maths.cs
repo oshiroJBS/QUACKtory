@@ -38,7 +38,7 @@ public static class Maths
         return _angle > 180f ? Mathf.Max(_angle, 360 + _from) : Mathf.Min(_angle, _to);
     }
 
-    public static void RotateToLookAt(Transform toRotate,Vector3 toLookAt,float rotateSpeed = 5f, bool FullRotation = false)
+    public static void RotateToLookAt(Transform toRotate, Vector3 toLookAt, float rotateSpeed = 5f, bool FullRotation = false)
     {
         if (FullRotation)
         {
@@ -138,4 +138,12 @@ public static class Maths
         return FarestObject;
     }
 
+    public static void Zoom(Transform target, float reScaleTarget, float Timer)
+    {
+        Vector3 SizeBuffer = target.localScale;
+        float increaseBuffer = reScaleTarget - 1;
+
+
+        target.localScale = SizeBuffer * (1 + increaseBuffer);
+    }
 }

@@ -113,6 +113,8 @@ public class playerBehaviour : MonoBehaviour
             PickedUpDuck.localPosition = Vector3.zero;
             PickedUpDuck.localRotation = Quaternion.Euler(new Vector3(-90, 0, 90));
             m_canPickUp = true;
+
+            buffer.GetActivated();
             buffer._isEmpty = false;
         }
         else

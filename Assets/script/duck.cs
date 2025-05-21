@@ -5,7 +5,7 @@ using static UnityEngine.GraphicsBuffer;
 
 public class duck : MonoBehaviour
 {
-    public bool Activated;
+    public bool _Activated;
     private playerBehaviour player;
     // Start is called before the first frame update
 
