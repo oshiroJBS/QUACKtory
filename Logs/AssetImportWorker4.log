@@ -1,0 +1,967 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'fr' Physical Memory: 32563 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Lctay/Documents/GitHub/QUACKtory
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+51243
+Successfully changed project path to: C:/Users/Lctay/Documents/GitHub/QUACKtory
+C:/Users/Lctay/Documents/GitHub/QUACKtory
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27904] Host "[IP] 192.168.1.142 [Port] 0 [Flags] 2 [Guid] 2610740660 [EditorId] 2610740660 [Version] 1048832 [Id] WindowsEditor(7,M0CH1_OSR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27904] Host "[IP] 192.168.1.142 [Port] 0 [Flags] 2 [Guid] 2610740660 [EditorId] 2610740660 [Version] 1048832 [Id] WindowsEditor(7,M0CH1_OSR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 84.95 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lctay/Documents/GitHub/QUACKtory/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
+    VRAM:     8042 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008029 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 94.64 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.611 seconds
+Domain Reload Profiling:
+	ReloadAssembly (612ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (448ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (92ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008711 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lctay\Documents\GitHub\QUACKtory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lctay\Documents\GitHub\QUACKtory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.080 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1081ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (773ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3820 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.3 MB). Loaded Objects now: 4272.
+Memory consumption went from 143.1 MB to 141.8 MB.
+Total: 3.296300 ms (FindLiveObjects: 0.228700 ms CreateObjectMapping: 0.187400 ms MarkObjects: 2.621900 ms  DeleteObjects: 0.256900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11808.041848 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic shields/Magic shield blue.prefab
+  artifactKey: Guid(b99922c2f59b1a542bdd06ae8bee47ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic shields/Magic shield blue.prefab using Guid(b99922c2f59b1a542bdd06ae8bee47ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c54ce13ce35a9bf37d5f26620f0f6ee') in 0.141352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.959494 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal blue.prefab
+  artifactKey: Guid(45e0f06c750176947862c10346226439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal blue.prefab using Guid(45e0f06c750176947862c10346226439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825bae082ee2c41eb069c271d1448228') in 0.198484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.924145 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Electro hit.prefab
+  artifactKey: Guid(a164e676dbbd6e54587237e619372c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Electro hit.prefab using Guid(a164e676dbbd6e54587237e619372c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a811174f3d39742a0f7f2b22552fcd04') in 0.017666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Love hit.prefab
+  artifactKey: Guid(356cf4dca1465b54fabbb8cd9b1cd190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Love hit.prefab using Guid(356cf4dca1465b54fabbb8cd9b1cd190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a18ecc89bd9cc2faaf1b97525695f4') in 0.042260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.264356 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Point.mat
+  artifactKey: Guid(e546d2d7171981b468cf29388d902e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Point.mat using Guid(e546d2d7171981b468cf29388d902e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a403ce21d3fe683061ab6e6ab42410') in 0.030376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.455975 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Healing circle.prefab
+  artifactKey: Guid(12a56ee4630040c4eb17ae9707ed4cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Healing circle.prefab using Guid(12a56ee4630040c4eb17ae9707ed4cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ebbaa5a445a052b2439434912c1bf8') in 0.028661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.765245 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Healing circle.prefab
+  artifactKey: Guid(12a56ee4630040c4eb17ae9707ed4cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Healing circle.prefab using Guid(12a56ee4630040c4eb17ae9707ed4cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2833c8666fff065dff3bb6ce8ad985c7') in 0.029209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.752492 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/MagicCircle.mat
+  artifactKey: Guid(ddac23d301cbfca45bcbe217c05f0141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/MagicCircle.mat using Guid(ddac23d301cbfca45bcbe217c05f0141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd371abe4d55017a6886b17861d3cb7') in 0.058213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.026425 seconds.
+  path: Assets/script/prefab/Magic circle.prefab
+  artifactKey: Guid(31b534a317e947844a27e1ff879e7548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/Magic circle.prefab using Guid(31b534a317e947844a27e1ff879e7548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07fa59b25fe14a84c28d0b097233b06') in 0.010650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1145.635196 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a97b954166fc130627ae37c723e525') in 0.155094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.053387 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec89a14d0a0f3f215effbb43ae791de') in 0.043899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.983083 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e847a5adc452decea74acdbc8e5e7ad') in 0.021905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.599746 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bcaad2f75ace04b0e206b3c2ea82a1') in 0.048945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.788118 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646758a5419824ea99912770e6dc3268') in 0.026669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.030626 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566da258dbabcee5ef78e63fbb713bae') in 0.035142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.430543 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a486fd3ca761781d16058c15bb8815') in 0.022740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.558699 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b753138be8c11e646a0ff7fe9489c2') in 0.019549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.621833 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b04ef11d6c379d0886acbe19c27134c') in 0.023159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.184351 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0e6578e1526fe0da357f2423de5748') in 0.021515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.259862 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3cb328458b353b3dfdcbe5a8ee8def') in 0.097825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.334817 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ef0c98df1745f73a471e6a0162bf2f') in 0.050937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.292817 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c625fed43c74607ff24078e00b141813') in 0.023903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.134636 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e63fa56b92bbf4f5957712724164ff1') in 0.026233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.461217 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc62c8d8a2fb4b4b1f05e073517005b') in 0.020237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.598597 seconds.
+  path: Assets/Hovl Studio
+  artifactKey: Guid(5939edb6029f24a4caf33a71b43ca5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio using Guid(5939edb6029f24a4caf33a71b43ca5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c0c597c86573669fd97acf2fc8a8c4') in 0.009914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.904436 seconds.
+  path: Assets/Hovl Studio/Magic effects pack
+  artifactKey: Guid(ccaf0d0261bfcfe4f874cb02d8931eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack using Guid(ccaf0d0261bfcfe4f874cb02d8931eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e48a4f2661ea2b8189c5cdf383e52d') in 0.008552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.937818 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs
+  artifactKey: Guid(30f354b2984b43147b902803fe8a4ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs using Guid(30f354b2984b43147b902803fe8a4ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151eb4e0683c5f94695f719ac617c8be') in 0.008403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.771664 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions
+  artifactKey: Guid(68268cae718ee3a49928d3510623883e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions using Guid(68268cae718ee3a49928d3510623883e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22017adb90968db7bd7071c68045873') in 0.009023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.990658 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Electro.mat
+  artifactKey: Guid(410fa9a27b8dd1f4989dd201babd7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Electro.mat using Guid(410fa9a27b8dd1f4989dd201babd7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4fc5abba62b6941b2bb8c8b3732fde') in 0.080161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.277481 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Heart.mat
+  artifactKey: Guid(e97a79db1dd66ad4d8f70932abe94b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Heart.mat using Guid(e97a79db1dd66ad4d8f70932abe94b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092283ed141d8be6c377e175e3307fdb') in 0.047167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.433446 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Flare.mat
+  artifactKey: Guid(818e127314f46c844a3b31d893dcfe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Flare.mat using Guid(818e127314f46c844a3b31d893dcfe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb62e9a45cfd5eaee103c00eee8bc936') in 0.020769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.125316 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Snowflake.mat
+  artifactKey: Guid(110e8ef5ba5275f4c864c6b5190c7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Snowflake.mat using Guid(110e8ef5ba5275f4c864c6b5190c7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6809b18232cca2e7eb0b26cc6006020') in 0.020359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.176819 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Star.mat
+  artifactKey: Guid(f7fb42690dbaf0d408f1f55ea89b7be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Star.mat using Guid(f7fb42690dbaf0d408f1f55ea89b7be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16cab1bc68c75ced0ebe0a6e33f06312') in 0.020699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.020507 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Stone.mat
+  artifactKey: Guid(5e01cbbef75a454468e5eb490ac64181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Stone.mat using Guid(5e01cbbef75a454468e5eb490ac64181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa8c592b1b8ea22209c4f00abf417b9') in 0.020116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.389676 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Electro hit.prefab
+  artifactKey: Guid(a164e676dbbd6e54587237e619372c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Electro hit.prefab using Guid(a164e676dbbd6e54587237e619372c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1540a3c19353c5569f5629c0f00acac1') in 0.050856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.355241 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Electro hit.prefab
+  artifactKey: Guid(a164e676dbbd6e54587237e619372c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Electro hit.prefab using Guid(a164e676dbbd6e54587237e619372c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c5595af9d3f3b19179212af0657f63') in 0.026142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 343.535173 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Holy hit.prefab
+  artifactKey: Guid(e190bf97c041e58448af6b043116cba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Holy hit.prefab using Guid(e190bf97c041e58448af6b043116cba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48d0212f7d2986b8570250eb7c1ce8c') in 0.035259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.578272 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic shields
+  artifactKey: Guid(ff54bd536efd4e54a8f4ecf8cc8b8a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic shields using Guid(ff54bd536efd4e54a8f4ecf8cc8b8a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab6e270cc8e74b8e14d99811eea7ebc') in 0.038712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.817152 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Circle.mat
+  artifactKey: Guid(4bab0f95134663b4c9c3dd73939c0ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Circle.mat using Guid(4bab0f95134663b4c9c3dd73939c0ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1000c185b89f76c5f80321b30993b1f') in 0.014478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.802820 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects
+  artifactKey: Guid(f0e78b2e61a2b2f40bf0a0be9e842772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects using Guid(f0e78b2e61a2b2f40bf0a0be9e842772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf2f89897c7dba0c95cd9eed73f4601') in 0.012435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.084469 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras
+  artifactKey: Guid(f28b9550250755a49a2bc61e35278603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras using Guid(f28b9550250755a49a2bc61e35278603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a7a8d194dad840547b8629d33fcb97') in 0.017445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.890076 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Buff.prefab
+  artifactKey: Guid(97c43495f80a3244fad1301dfafbe252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Buff.prefab using Guid(97c43495f80a3244fad1301dfafbe252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a9a27791f84f3811c141f9e533c07e') in 0.149362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Love aura.prefab
+  artifactKey: Guid(43d1d06cf70fcb2488255051aaae40a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Love aura.prefab using Guid(43d1d06cf70fcb2488255051aaae40a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4050034171c62c20759b48f27350af63') in 0.176481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Star aura.prefab
+  artifactKey: Guid(354b6251e950209409c75ab984acf000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Star aura.prefab using Guid(354b6251e950209409c75ab984acf000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f7c651a7a6f1e8d6b6df51dfaa069b') in 0.046070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Healing.prefab
+  artifactKey: Guid(1245b8d2997d5b34fb1637be70a7eb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Healing.prefab using Guid(1245b8d2997d5b34fb1637be70a7eb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3527f58c673d3a2702dda41d180e9575') in 0.035292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.823090 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Arrow1.mat
+  artifactKey: Guid(00b2a55319476cf40b84578eb2f8c2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Arrow1.mat using Guid(00b2a55319476cf40b84578eb2f8c2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3a26c6072d992b501b55a94286aa07') in 0.012001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.029882 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade74d27528920ce37f00ec314dfaa12') in 0.110066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.633156 seconds.
+  path: Assets/script/prefab/Buff.prefab
+  artifactKey: Guid(cf58544d432d68b4cbee44e963767c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/Buff.prefab using Guid(cf58544d432d68b4cbee44e963767c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e846a45b253d16dff0d70d912c1b92c') in 0.020604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.085139 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e8101a74410036d83e42335b74e6b9') in 0.044273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.751462 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e88484c0866e9a5574455eb6ef17c3') in 0.019981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.550849 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3f80f7d64f89b387cf671bc7858d25') in 0.020214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.176583 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd523a426ce673d2ae804a182b20f58c') in 0.058232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.238331 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a647916de9f4225a261ce820626bf9') in 0.014205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.588844 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab67cbed169c1d6907a718f6a1603242') in 0.014017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.847891 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebc77fb28c4115651a1f6242b5a6459') in 0.017975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.874602 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Smoke26.mat
+  artifactKey: Guid(616a777eb757ff14c82a79feeb35d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Smoke26.mat using Guid(616a777eb757ff14c82a79feeb35d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3865ede9d76a97f960b1e27bd60d7323') in 0.013846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.516802 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea47a76dba6a8769b24f37143a343d7') in 0.013772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.848733 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e95ccb12c5166d2b84978cc613bc34') in 0.013873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.109991 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1430eca0725a3e0460fa8b5f3bc6779a') in 0.014476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.211306 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce09c7e516e5dda1e50b2fa7e35286d7') in 0.141382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.914881 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edef89dab8b82292a5bfe75eb7bbc70f') in 0.016448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.156668 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c678ec86bb0795a407ca76870ffdc1e') in 0.014658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.865831 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacbb83c60bbf0cc11d2b51685bce31b') in 0.013693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.398625 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c83f587df83d9494f5f3d9d6e2d581') in 0.014134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.690554 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30064510dea0fa82e2568174edcba4fc') in 0.014400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.001090 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a01c4238a8bb54633e8be59803ac5f') in 0.042282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.012285 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3c32c9788e5360e64781b3383e290f') in 0.411769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.716917 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba59d748e7e7b90bac252808613ba2c0') in 0.014424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.973344 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e37af4aa9ccc76459cfb55f7193172f') in 0.017074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.543302 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baeaecb7cd710e8c71bc29424cd86f26') in 0.014549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.225098 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2765935a0eefe9ccb4b47ee67f9e4b41') in 0.013659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.602684 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9f2e349c652ab595993907a69580c8') in 0.014865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.820257 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff8e8eb6d3e44a1876d4528cae07ea2') in 0.014854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3763.648407 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab
+  artifactKey: Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant CLASSIC.prefab using Guid(2bdd43d31c9437d4ea2c03fd82512be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9801faed53831ca2b516da8a105a160f') in 0.464028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0614b21a509e92555c3cb970ec36285') in 0.026720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb9c9960362499d770ebb181f3dce43') in 0.077739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.715044 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DOCK.prefab
+  artifactKey: Guid(80ca2e395756461498571208a17b03d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DOCK.prefab using Guid(80ca2e395756461498571208a17b03d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d3019172e0ba522d8d07442c9f66c8') in 0.016242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.480880 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DOCK.prefab
+  artifactKey: Guid(80ca2e395756461498571208a17b03d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DOCK.prefab using Guid(80ca2e395756461498571208a17b03d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ece7b633eace9937c76457fed6f3344') in 0.016276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.831434 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DOCK.prefab
+  artifactKey: Guid(80ca2e395756461498571208a17b03d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DOCK.prefab using Guid(80ca2e395756461498571208a17b03d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2589f3f206337ad68a08295f271cf0c4') in 0.016845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.109721 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DOCK.prefab
+  artifactKey: Guid(80ca2e395756461498571208a17b03d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DOCK.prefab using Guid(80ca2e395756461498571208a17b03d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f02eaf1c5c589834a1cd790034bfe39') in 0.010731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.450396 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DOCK.prefab
+  artifactKey: Guid(80ca2e395756461498571208a17b03d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DOCK.prefab using Guid(80ca2e395756461498571208a17b03d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feead5ab7a6d7be9e5265474e8b49c24') in 0.010153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.760990 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091ff33837b7d30b7552065a72d40cd7') in 0.021316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.137188 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1cd796dd23d831dab25d6692528425') in 0.022592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.533083 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab
+  artifactKey: Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant DUC.prefab using Guid(4bb27d3a5a9614e4fa956f40e1cd8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7290331af6e1796b3f253c7b64937bb0') in 0.024649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.243547 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060b9f4bd88022bfbcb8dacc34bd23b6') in 0.033434 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006566 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lctay\Documents\GitHub\QUACKtory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lctay\Documents\GitHub\QUACKtory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1021ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (770ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (362ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.82 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4331.
+Memory consumption went from 143.2 MB to 141.9 MB.
+Total: 3.244200 ms (FindLiveObjects: 0.232100 ms CreateObjectMapping: 0.075000 ms MarkObjects: 2.674100 ms  DeleteObjects: 0.262000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 111.976033 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects
+  artifactKey: Guid(fafa6ed23af356445b9387cba7732fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects using Guid(fafa6ed23af356445b9387cba7732fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd41bd82c33cc3848bc58f5a65901a5') in 0.015219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.428472 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks
+  artifactKey: Guid(7ac8a20ca9bf7454bbb231c5221abbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks using Guid(7ac8a20ca9bf7454bbb231c5221abbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e4e367834d72c6e565f9aca66eb727') in 0.008985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.097724 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles
+  artifactKey: Guid(58c695d9e25e06a47919eb09f93c4b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles using Guid(58c695d9e25e06a47919eb09f93c4b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604486445577fe6416af46a457cd536c') in 0.009732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.012007 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33df217b12696fa70ddaeb5672660b7') in 0.110857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.238838 seconds.
+  path: Assets/script/prefab/Debuff.prefab
+  artifactKey: Guid(688c744b55ade7540a44ac5ec9030f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/Debuff.prefab using Guid(688c744b55ade7540a44ac5ec9030f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c64996ba6addb9edb0c8223e348934') in 0.080628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.931900 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0423ce64f984770282cddd2785521f') in 0.034994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.376612 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24abcd4c1329f63e58f8b88989eb5bd') in 0.034474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.756855 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4cccfa9d536508187bd4e4e07e9ef9') in 0.020727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.278892 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd209272cf67bd89fed8590498fbdd809') in 0.013727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.940267 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6ca5dba91b340e4655aa6964c02a27') in 0.017666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.385660 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466cd642c8e00847fc9128fd50fff7ba') in 0.014180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.909224 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91d378240210e439f7f2d7e72b37155') in 0.014667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.079321 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189c8b3540ff73d9d87f5df3aa669b56') in 0.014035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.144269 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e150bef3be6acc038b1a862dfc60a5a6') in 0.013463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.108161 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985d0756fdd3f0f6b9755b2683c93b31') in 0.013627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.338182 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb129375a0f3e252eaf8acf535055941') in 0.014169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.027399 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550c37bef8da8bc616fc7b939af81a9e') in 0.014893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.341277 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821f5e5adb505e3f692b21c677cfb4ae') in 0.015533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.804539 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b223fe7c5c39c3b0bd6c1dda8efcd50') in 0.013567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.430890 seconds.
+  path: Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab
+  artifactKey: Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/prefab/RubberDuck_Pond Variant TUCK.prefab using Guid(2c4488579838f2b449e06708202aa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c3202568cac02cc106197115ede009') in 0.014870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.294570 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Arrow1.png
+  artifactKey: Guid(cd95337217b49a143a851ed79a626632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Arrow1.png using Guid(cd95337217b49a143a851ed79a626632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73f429bcf42f12e66457ee890c80991') in 0.066947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Star.png
+  artifactKey: Guid(5cc658114b5abae49bce56d6c4ae3105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Star.png using Guid(5cc658114b5abae49bce56d6c4ae3105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81573d76774934ee4ea0d9a82bd618d3') in 0.012546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Snowflake.png
+  artifactKey: Guid(0e1a6a9f47773b7478bea4aee1a1b64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Snowflake.png using Guid(0e1a6a9f47773b7478bea4aee1a1b64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eea1268958b4009aaac852d4f8a9ee0') in 0.011966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Flash2.png
+  artifactKey: Guid(b80e2bf2e14ae37469c6a566da0c8c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Flash2.png using Guid(b80e2bf2e14ae37469c6a566da0c8c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c63e5b67b7d8e308b52631f0c0f274') in 0.139696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Mask1.png
+  artifactKey: Guid(c829f3f833484ac45b5b9150cb06631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Mask1.png using Guid(c829f3f833484ac45b5b9150cb06631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca463614f999e3a5526865d339e2850') in 0.130702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Flash.png
+  artifactKey: Guid(497534591604c9c40922a9ea2ef833b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Flash.png using Guid(497534591604c9c40922a9ea2ef833b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79450e196aae59ab63bcaa6038d67395') in 0.013132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Gradient2.png
+  artifactKey: Guid(2aef00c76b0b12740b0910319f11e6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Gradient2.png using Guid(2aef00c76b0b12740b0910319f11e6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306f63a5beb4c4a5d70da24316d4fdff') in 0.017795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Flare.png
+  artifactKey: Guid(96a713cc4a0aa464caab5d8fad5911e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Flare.png using Guid(96a713cc4a0aa464caab5d8fad5911e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4edd81d4e0d7a9a320dd404300c39e') in 0.014220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_Normal.png
+  artifactKey: Guid(3a0dde7201a17f646865e8deeac56596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_Normal.png using Guid(3a0dde7201a17f646865e8deeac56596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f987352ffb257d4e515fca9e33e154a3') in 0.082361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Smoke26.png
+  artifactKey: Guid(08b3912bdc0a5ed4d9a27125425a97f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Smoke26.png using Guid(08b3912bdc0a5ed4d9a27125425a97f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e59bf6d0078ceaa8de73f3cf4fb55a0') in 0.012605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/MagicCircle.png
+  artifactKey: Guid(3dce5bac285284a46b6cf77e52dfcd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/MagicCircle.png using Guid(3dce5bac285284a46b6cf77e52dfcd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bec50d0df568c5e08bc4944591d8bbc') in 0.039436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Heart.png
+  artifactKey: Guid(47a48c9cf6895484983862ae79cb7102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Heart.png using Guid(47a48c9cf6895484983862ae79cb7102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b7fb4734bdd47f9b1976f275b0e1c6') in 0.014158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Circle2.png
+  artifactKey: Guid(cb15b7c714c56904eb8628c669fd8aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Circle2.png using Guid(cb15b7c714c56904eb8628c669fd8aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc502a86057fc25615cf147fc6b48ee') in 0.033551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Point1.png
+  artifactKey: Guid(640e93060c8b460449dc5d4f16193387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Point1.png using Guid(640e93060c8b460449dc5d4f16193387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf1806d1e0e45546cd08af73b94cecb') in 0.014455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab.png
+  artifactKey: Guid(1b13dc101cf2ac7418019fd776161658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab.png using Guid(1b13dc101cf2ac7418019fd776161658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a6d4502f6915751900db44a028f178') in 0.054260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.524916 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Stone.png
+  artifactKey: Guid(ad3c6deb60874964aa592b7f1458ac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Stone.png using Guid(ad3c6deb60874964aa592b7f1458ac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2ef27ad3039e37f26ea993beff4822') in 0.094570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/TechCircle2.png
+  artifactKey: Guid(31273298da45ec54c8505bff93a9f44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/TechCircle2.png using Guid(31273298da45ec54c8505bff93a9f44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30fdb4d8f873d8bf808dc5eefc8cbb6') in 0.279666 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

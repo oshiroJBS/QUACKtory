@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class arrow : MonoBehaviour
 {
-    public float speed = 1;
+    public float _speed = 1;
+    private minigameManager m_manager;
     public enum _Direction 
     {
         Up,
@@ -16,7 +17,8 @@ public class arrow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (m_manager == null)
+            m_manager = GameObject.FindObjectOfType<minigameManager>();
     }
 
     // Update is called once per frame
@@ -25,15 +27,22 @@ public class arrow : MonoBehaviour
         switch (_arrowDirection)
         {
             case _Direction.Up:
-                this.transform.Translate(speed * Vector3.up);
+                this.transform.Translate(_speed * Vector3.up);
                 break;
 
             case _Direction.Left:
-                this.transform.Translate(speed * Vector3.left);
+                this.transform.Translate(_speed * Vector3.left);
                 break;
                  
             default:
                 break;
+        }
+
+        if(m_manager._activeGame == 1 && this.transform.localPosition.x <= -550)
+        {
+            Debug.Log("lose Game");
+            m_manager.LoseMiniGame();
+            m_manager._activeGame = 0;
         }
     }
 }

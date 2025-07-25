@@ -2,8 +2,11 @@ using UnityEngine;
 
 public class BasicDock : MonoBehaviour
 {
+    private playerBehaviour m_player;
+
     // Start is called before the first frame update
     public bool _isEmpty = true;
+    public duck _managedDuck;
 
     private Transform[] _wayPoints = new Transform[5];
     private float m_speed = 1f;
@@ -11,8 +14,11 @@ public class BasicDock : MonoBehaviour
 
     private void Awake()
     {
+        if (m_player == null)
+            m_player = GameObject.FindObjectOfType<playerBehaviour>();
         _isEmpty = true;
     }
+
     virtual public void Start()
     {
         GameObject[] Objects = GameObject.FindGameObjectsWithTag("Waypoints");
@@ -61,5 +67,6 @@ public class BasicDock : MonoBehaviour
         }
     }
 
-    virtual public void GetActivated() { }
+    virtual public void GetActivated() {
+    }
 }

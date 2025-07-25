@@ -367,6 +367,7 @@
 "Assets/script/dockScript/minigameManager.cs"
 "Assets/script/dockScript/StaticDock.cs"
 "Assets/script/duck.cs"
+"Assets/script/faceCamera.cs"
 "Assets/script/Generate.cs"
 "Assets/script/Maths.cs"
 "Assets/script/playerBehaviour.cs"

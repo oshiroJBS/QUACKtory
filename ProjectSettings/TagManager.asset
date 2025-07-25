@@ -7,6 +7,7 @@ TagManager:
   - Duck
   - Dock
   - Waypoints
+  - skull
   layers:
   - Default
   - TransparentFX
